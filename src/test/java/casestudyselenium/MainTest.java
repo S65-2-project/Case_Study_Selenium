@@ -22,7 +22,7 @@ public class MainTest {
 
         driver.findElement(By.xpath("//*[@id=\"userNameInput\"]")).sendKeys("banaaniskrom");
         driver.findElement(By.xpath("//*[@id=\"passwordInput\"]")).sendKeys("banaanisvierkant");
-        driver.findElement(By.xpath("/html/body/div[2]/div[2]/div[1]/div[2]/div/div/form/div[2]/div[3]/label")).click();
+        driver.findElement(By.xpath("//*[@id=\"kmsiInput\"]")).click();
 
         driver.findElement(By.xpath("//*[@id=\"submitButton\"]")).click();
 
